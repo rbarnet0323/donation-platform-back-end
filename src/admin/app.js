@@ -1,4 +1,4 @@
-import favicon from '.extensions/favicon.ico'
+import favicon from './extensions/favicon.ico';
 
 const config = {
   locales: [
