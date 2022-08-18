@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Amount": {
+    "amount": {
       "type": "decimal"
     },
     "user": {
@@ -22,6 +22,9 @@
     },
     "donor": {
       "type": "email"
+    },
+    "stripeID": {
+      "type": "string"
     }
   }
 }
