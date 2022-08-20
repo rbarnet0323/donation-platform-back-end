@@ -12,19 +12,21 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "stripeID": {
-      "type": "string"
-    },
     "donor": {
       "type": "email"
     },
     "amount": {
       "type": "decimal"
     },
-    "user": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "plugin::users-permissions.user"
+    "userID": {
+      "type": "string"
+    },
+    "stripeID": {
+      "type": "string"
+    },
+    "stripeUID": {
+      "type": "uid",
+      "targetField": "stripeID"
     }
   }
 }

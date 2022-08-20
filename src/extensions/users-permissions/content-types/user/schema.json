@@ -79,11 +79,6 @@
     },
     "balance": {
       "type": "decimal"
-    },
-    "donations": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::donation.donation"
     }
   }
 }
