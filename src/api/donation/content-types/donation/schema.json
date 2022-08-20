@@ -4,27 +4,26 @@
   "info": {
     "singularName": "donation",
     "pluralName": "donations",
-    "displayName": "Donation",
-    "description": ""
+    "displayName": "Donation"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "amount": {
-      "type": "decimal"
+    "stripeID": {
+      "type": "string"
+    },
+    "donor": {
+      "type": "email"
     },
     "user": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "admin::user"
     },
-    "donor": {
-      "type": "email"
-    },
-    "stripeID": {
-      "type": "string"
+    "amount": {
+      "type": "decimal"
     }
   }
 }
